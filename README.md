@@ -42,6 +42,7 @@ Diseñada para usarse en exteriores con luz solar: alto contraste y colores insp
 | Principal | Secundario | Fondo | Texto | Alerta |
 |:---:|:---:|:---:|:---:|:---:|
 | `#005B96` | `#03A9F4` | `#F5F5F5` | `#212121` | `#D32F2F` |
+| <img src="https://placehold.co/70x70/005B96/005B96.png" width="70"> | <img src="https://placehold.co/70x70/03A9F4/03A9F4.png" width="70"> | <img src="https://placehold.co/70x70/F5F5F5/F5F5F5.png" width="70"> | <img src="https://placehold.co/70x70/212121/212121.png" width="70"> | <img src="https://placehold.co/70x70/D32F2F/D32F2F.png" width="70"> |
 
 ## Pantallas
 
