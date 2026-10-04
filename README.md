@@ -8,7 +8,6 @@ Aplicación móvil Android que digitaliza el pre-chequeo de seguridad antes de c
 
 ## Información del proyecto
 
-| | |
 |---|---|
 | **Asignatura** | Aplicaciones Móviles — Sección 002D |
 | **Equipo** | Los Chiikawitas — Grupo 8 |
