@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/diseno/Logo_AquaCheck_Sin_Fondo.png" alt="Logo AquaCheck" width="180">
+  <img src="docs/diseno/Logo_AquaCheck_Sin_Fondo.png" alt="Logo AquaCheck" width="200">
 </p>
 
-# AquaCheck Buceo 🐟
+# AquaCheck Buceo
 
 Aplicación móvil Android que digitaliza el pre-chequeo de seguridad antes de cada inmersión. Guía al buzo con un checklist de equipamiento, alerta cuando faltan ítems críticos y guarda una bitácora de cada inmersión validada.
 
