@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/diseno/Logo_AquaCheck_Sin_Fondo.png" alt="Logo AquaCheck" width="140">
+  <img src="docs/diseno/Logo_AquaCheck_Sin_Fondo.png" alt="Logo AquaCheck" width="180">
 </p>
 
 # AquaCheck Buceo 🐟
