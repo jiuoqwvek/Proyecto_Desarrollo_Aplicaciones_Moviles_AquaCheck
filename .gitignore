@@ -1,0 +1,23 @@
+# Archivos de compilación
+build/
+/app/build/
+.gradle/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+/captures
+
+# Configuración local de cada computador
+local.properties
+
+# Configuración de Android Studio
+.idea/
+*.iml
+
+# APKs y bundles generados
+*.apk
+*.aab
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
