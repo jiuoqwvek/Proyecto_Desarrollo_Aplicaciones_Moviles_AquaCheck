@@ -11,6 +11,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.aquacheck.ui.components.BarraInferior
 import com.example.aquacheck.ui.components.BarraSuperior
+import com.example.aquacheck.ui.screens.PreChequeoScreen
 
 @Composable
 fun AppNavigation() {
@@ -38,7 +39,7 @@ fun AppNavigation() {
         ) {
             composable(Rutas.LOGIN) { RoutePlaceholder("Iniciar sesión") }
             composable(Rutas.INICIO) { RoutePlaceholder("Inicio") }
-            composable(Rutas.PRECHEQUEO) { RoutePlaceholder("Pre-chequeo") }
+            composable(Rutas.PRECHEQUEO) { PreChequeoScreen() }
             composable(Rutas.CHECKLIST) { RoutePlaceholder("Checklist") }
             composable(Rutas.RESUMEN) { RoutePlaceholder("Resumen de inmersión") }
             composable(Rutas.HISTORIAL) { RoutePlaceholder("Historial") }
