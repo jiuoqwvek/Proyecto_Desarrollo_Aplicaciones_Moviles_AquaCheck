@@ -78,3 +78,15 @@ flowchart TD
 - [Evidencia Clase 1 — Problema y MVP](docs/evidencias/clase-01/Evidencia_Clase_01_MVP_Equipo_08.pdf)
 - [Evidencia Clase 2 — Flujo de usuario y diseño](docs/evidencias/clase-02/Evidencia_Clase_02_Diseno_Equipo_08.pdf)
 - [Diagrama UML](docs/diseno/diagramaUML.png)
+
+## Estructura de desarrollo
+
+La implementación se organiza por funcionalidades en las siguientes ramas:
+
+| Rama | Componentes principales |
+|---|---|
+| `feature/navegacion` | `AppNavigation`, `MainActivity`, `BarraSuperior` y `BarraInferior` |
+| `feature/prechequeo` | `PreChequeoScreen` y `OpcionSeleccionable` |
+| `feature/resumen_inmersion` | `ResumenScreen` |
+
+La interfaz está construida con Jetpack Compose y utiliza Navigation Compose para conectar las pantallas del flujo de inmersión.
