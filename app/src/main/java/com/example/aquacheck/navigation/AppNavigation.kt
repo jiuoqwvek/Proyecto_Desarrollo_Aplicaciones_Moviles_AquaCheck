@@ -12,6 +12,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.aquacheck.ui.components.BarraInferior
 import com.example.aquacheck.ui.components.BarraSuperior
 import com.example.aquacheck.ui.screens.PreChequeoScreen
+import com.example.aquacheck.ui.screens.ResumenScreen
 
 @Composable
 fun AppNavigation() {
@@ -41,7 +42,7 @@ fun AppNavigation() {
             composable(Rutas.INICIO) { RoutePlaceholder("Inicio") }
             composable(Rutas.PRECHEQUEO) { PreChequeoScreen() }
             composable(Rutas.CHECKLIST) { RoutePlaceholder("Checklist") }
-            composable(Rutas.RESUMEN) { RoutePlaceholder("Resumen de inmersión") }
+            composable(Rutas.RESUMEN) { ResumenScreen() }
             composable(Rutas.HISTORIAL) { RoutePlaceholder("Historial") }
             composable(Rutas.PERFIL) { RoutePlaceholder("Perfil") }
         }
