@@ -1,8 +1,8 @@
 package com.example.aquacheck.ui.components
 
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -18,7 +18,7 @@ private data class ItemBarra(val route: String, val label: String, val icon: Ima
 fun BarraInferior(currentRoute: String?, onNavigate: (String) -> Unit) {
     val items = listOf(
         ItemBarra(Rutas.INICIO, "Inicio", Icons.Default.Home),
-        ItemBarra(Rutas.HISTORIAL, "Historial", Icons.Default.History),
+        ItemBarra(Rutas.HISTORIAL, "Historial", Icons.Default.List),
         ItemBarra(Rutas.PERFIL, "Perfil", Icons.Default.Person)
     )
     NavigationBar {
