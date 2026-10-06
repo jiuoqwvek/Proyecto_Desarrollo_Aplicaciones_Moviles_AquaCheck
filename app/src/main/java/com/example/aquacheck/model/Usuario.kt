@@ -1,8 +1,9 @@
 package com.example.aquacheck.model
 
-//Usuario ficticio para el login (temporal. Solo para subir la base del proyecto)
+//Usuario para el login
 data class Usuario(
+    val nombre: String,
     val correo: String,
     val clave: String,
-    val nombre: String,
+    val rol: String
 )
