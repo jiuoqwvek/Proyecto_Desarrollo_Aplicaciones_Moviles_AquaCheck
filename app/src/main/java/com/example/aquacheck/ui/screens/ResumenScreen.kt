@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ResumenScreen(onGuardar: () -> Unit = {}) {
+fun ResumenScreen(onFinalizar: () -> Unit = {}) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -30,8 +30,8 @@ fun ResumenScreen(onGuardar: () -> Unit = {}) {
                 Text("Todos los elementos del pre-chequeo fueron confirmados.")
             }
         }
-        Button(onClick = onGuardar) {
-            Text("Guardar en bitácora")
+        Button(onClick = onFinalizar) {
+            Text("Finalizar pre-chequeo")
         }
     }
 }
