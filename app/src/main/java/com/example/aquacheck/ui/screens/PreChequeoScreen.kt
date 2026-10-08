@@ -23,7 +23,7 @@ private val elementosPrechequeo = listOf(
 )
 
 @Composable
-fun PreChequeoScreen() {
+fun PreChequeoScreen(onContinuar: () -> Unit = {}) {
     val seleccionados = remember { mutableStateListOf<String>() }
     val completo = seleccionados.size == elementosPrechequeo.size
 
@@ -35,7 +35,10 @@ fun PreChequeoScreen() {
     ) {
         Text("Pre-chequeo de equipamiento")
         Text("Confirma que cada elemento está listo antes de continuar.")
-        LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        LazyColumn(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
             items(elementosPrechequeo) { elemento ->
                 OpcionSeleccionable(
                     texto = elemento,
@@ -47,7 +50,7 @@ fun PreChequeoScreen() {
                 )
             }
         }
-        Button(onClick = {}, enabled = completo) {
+        Button(onClick = onContinuar, enabled = completo) {
             Text("Continuar")
         }
     }
